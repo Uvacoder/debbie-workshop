@@ -11,6 +11,7 @@
         AsyncData example
       </nuxt-link>
       <nuxt-link class="font-bold px-3" to="/rivers">Rivers</nuxt-link>
+      <nuxt-link class="font-bold px-3" to="/reviews">Reviews</nuxt-link>
     </div>
     <p v-if="$fetchState.pending">Is fetching...</p>
     <p v-else-if="$fetchState.error">Ooops!</p>
