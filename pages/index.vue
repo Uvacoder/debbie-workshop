@@ -6,7 +6,11 @@
     <div class="flex flex-wrap items-center justify-center">
       <LazyBaseAlert v-if="show" />
       <BaseButton @click="toggleAlert" />
-      <nuxt-link to="/about">About</nuxt-link>
+      <nuxt-link class="font-bold px-3" to="/about">About</nuxt-link>
+      <nuxt-link class="font-bold px-3" to="/asyncdata">
+        AsyncData example
+      </nuxt-link>
+      <nuxt-link class="font-bold px-3" to="/rivers">Rivers</nuxt-link>
     </div>
     <p v-if="$fetchState.pending">Is fetching...</p>
     <p v-else-if="$fetchState.error">Ooops!</p>
