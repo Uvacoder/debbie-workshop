@@ -1,6 +1,6 @@
 # debbie-workshop
 
-## Build Setup
+## Buil-d Setup
 
 ```bash
 # install dependencies
